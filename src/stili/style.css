@@ -183,6 +183,8 @@ section p{
     color:rgba(182, 182, 182, 0.664);
     height: 30%;
     
+
+    
     font-size: 0.8vw;
     font-weight: 700;
     padding-left: 10%;
@@ -220,6 +222,11 @@ section p{
     color:white;
     border: 1px solid  rgba(20, 250, 143, 0.349)
 }
+.section_wrapper--left--down--btn:checked{
+    background-color: rgba(20, 250, 143, 0.349);
+    color:white;
+}
+
 
 .section_wrapper--left--down--btn:hover{
     background-color: rgba(3, 0, 41, 0.856);
@@ -263,37 +270,43 @@ section p{
     position: relative;
 }
 .article_right--box{
-    height: 70%;
+    height: 100%;
     position:relative;
     display: flex;
     flex-direction: column;
-    top: 15%;
     width: 80%;
     margin: 0 auto;
     gap: 1rem;;
+   
     
 }
 .article_right--box--p1{
+
     height: auto;
     width: 100%;
     display: block;
     position: relative;
     font-size: 3vw;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.842);
+    color: rgba(29, 11, 11, 0.842);
     font-family:Arial, Helvetica, sans-serif;
    
 }
 
 .article_right--box--p2{
+  
+    min-height: 10%;
+    max-height: 50%;
     height: auto;
+    
     width: 80%;
     display: block;
     position: relative;
     font-size: 1vw;
     font-weight: 100;
-    color: rgba(0, 0, 0, 0.356);
+    color: rgba(0, 0, 0, 0.5);
     font-family:Arial, Helvetica, sans-serif;
+   
    
 
 }
@@ -301,19 +314,26 @@ section p{
     position: relative;
     width: 100%;
     display: flex;
-    
+    gap:0.9rem;
+    max-height: 50%;
     height: auto;
     
+      
 }
 .article_right--box--p3{
     font-size: 2.5vw;
     color:rgba(188, 88, 219, 0.986);
     font-weight: 200;
+     width: 100%;
+     position: relative;
+ 
 }
 .article_right--box--p4{
     font-size: 1.5vw;
     color:rgba(0, 0, 0, 0.856);
     font-weight: 100;
+    max-height: 8vh;
+    position: relative;
 }
 
 /***Aside**/
