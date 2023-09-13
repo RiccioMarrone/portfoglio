@@ -4,6 +4,7 @@ import UseAnimations from "react-useanimations";
 import { useInView } from 'react-intersection-observer';
 import { useRef } from 'react';
 import { useEffect } from 'react';
+import V from "../../img/pngwing.com.png";
 
 const AsideUp = ({skill}) => {
   const control = useAnimationControls();
@@ -24,7 +25,7 @@ const AsideUp = ({skill}) => {
   return (
     <div  className='asideUp_box' ref = {skill}>
       <p>What i learned</p>
-      <img ref = {ref} variants = {boxVariant} initial ="hidden" animate = {control}   className=' asideUp_box--img' src = "/Applications/Personal_Site/src/img/pngwing.com.png"></img>
+      <img ref = {ref} variants = {boxVariant} initial ="hidden" animate = {control}   className=' asideUp_box--img' src = {V}></img>
       
     </div>
   )
