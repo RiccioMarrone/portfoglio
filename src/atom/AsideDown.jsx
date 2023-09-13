@@ -4,6 +4,7 @@ import UseAnimations from "react-useanimations";
 import { useInView } from 'react-intersection-observer';
 import { useRef } from 'react';
 import { useEffect } from 'react';
+
 const AsideDown = () => {
    const [ref, inView] = useInView();
    const control = useAnimationControls();

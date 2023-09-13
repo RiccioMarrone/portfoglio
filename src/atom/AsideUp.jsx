@@ -24,7 +24,7 @@ const AsideUp = ({skill}) => {
   return (
     <div  className='asideUp_box' ref = {skill}>
       <p>What i learned</p>
-      <img ref = {ref} variants = {boxVariant} initial ="hidden" animate = {control}   className=' asideUp_box--img' src = "src/img/pngwing.com.png"></img>
+      <img ref = {ref} variants = {boxVariant} initial ="hidden" animate = {control}   className=' asideUp_box--img' src = "/Applications/Personal_Site/src/img/pngwing.com.png"></img>
       
     </div>
   )
