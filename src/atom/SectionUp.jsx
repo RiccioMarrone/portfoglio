@@ -33,7 +33,7 @@ const SectionUp = ({home}) => {
           </div>
 
           <div className='section_wrapper--right'>
-           <img style = {{position:"relative",height:"90%",top:"10%",objectFit:"fill",overflow:"hidden" }}className='img-fluid' src = "img/[removal.ai]_00292e8b-3a05-4afb-9cbf-4eba2cfc7896-3426526_X0SOH2.png" />
+           <img style = {{position:"relative",height:"90%",top:"10%",objectFit:"fill",overflow:"hidden" }}className='img-fluid' src = "src/img/[removal.ai]_00292e8b-3a05-4afb-9cbf-4eba2cfc7896-3426526_X0SOH2.png" />
 
           </div>
       </div>

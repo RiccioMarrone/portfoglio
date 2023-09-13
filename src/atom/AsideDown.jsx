@@ -30,27 +30,27 @@ const AsideDown = () => {
         <motion.div className='asideDown_box--row1'>
             <motion.div  className='box_skill'>
               <p>FrameWork</p>
-              <span className='box_skill--span1'> <p>React Js</p> <img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
-              <span className='box_skill--span1'><p>Bootstrap</p> <img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
-              <span className='box_skill--span1'> <p>Express Js</p> <img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
+              <span className='box_skill--span1'> <p>React Js</p> <img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
+              <span className='box_skill--span1'><p>Bootstrap</p> <img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
+              <span className='box_skill--span1'> <p>Express Js</p> <img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
 
 
             </motion.div>
 
             <motion.div className='box_skill' >
               <p>Linguaggi Programmazione</p>
-              <span className='box_skill--span2'> <p>JavaScript</p> <img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
-              <span className='box_skill--span2' ><p>PHP</p> <img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
-              <span className='box_skill--span2' > <p>MY SQL</p><img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
+              <span className='box_skill--span2'> <p>JavaScript</p> <img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
+              <span className='box_skill--span2' ><p>PHP</p> <img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
+              <span className='box_skill--span2' > <p>MY SQL</p><img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
 
 
 
             </motion.div>
             <motion.div className='box_skill' >
               <p>Linguaggi di Mark-Up e precompilatori</p>
-              <span className='box_skill--span3' ><p>HTML</p><img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
-              <span className='box_skill--span3' > <p>CSS</p><img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
-              <span className='box_skill--span3' > <p>SCSS</p><img className='box_skill--span_img' src = "img/verified_7641727.png"/></span>
+              <span className='box_skill--span3' ><p>HTML</p><img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
+              <span className='box_skill--span3' > <p>CSS</p><img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
+              <span className='box_skill--span3' > <p>SCSS</p><img className='box_skill--span_img' src = "src/img/verified_7641727.png"/></span>
 
 
 
