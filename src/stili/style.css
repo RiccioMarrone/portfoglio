@@ -623,32 +623,31 @@ aside{
     }
     .article_right--box{
         width: 90%;
-        
+        margin: 0 auto;
         height: 100%;
         position: relative;
-        left: 10%;
     }
     .article_right--box--p1{
         font-size: 6vw;
     }
     .article_right--box--p2{
-        font-size: 3.8vw;
-        max-height: 70vh;
+        font-size: 3.5vw;
+        height: auto;
         overflow: hidden;
         position: relative;
+        width: 100%;
+        color: rgba(7, 7, 7, 0.363);
     }
     .article_right--box span{
-        
         width: 100%;
-        gap: 0.8rem;
+        gap: 0.9rem;
     }
     .article_right--box--p3{
         font-size: 5vw;
     }
     .article_right--box--p4{
         font-size:3.2vw;
-      
-        max-height: 8vh;
+        width: auto;
     }
     aside{
         min-height: 600px;
@@ -691,32 +690,34 @@ aside{
 
     }
     .box_skill p{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .box_skill--span1{
         min-height: 5vh;
 
     }
     .box_skill--span1 p{
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 600;
         padding: 1.4em 0;
     }
     .box_skill--span2 p{
-        font-size: 2vw;
+        font-size: 3vw;
         color: white;
         font-weight: 600;
         padding: 1.4em 0;
     }
     .box_skill--span3 p{
-        font-size: 2vw;
+        font-size: 3vw;
         color: white;
         font-weight: 600;
         padding: 1.4em 0;
     
     }
     .box_skill--span_img{
-        padding: 0.6rem 0;
+        height: auto;
+        margin: auto 0;
+        position: relative;
     }
     
 }
