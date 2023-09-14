@@ -640,13 +640,17 @@ aside{
     .article_right--box span{
         width: 100%;
         gap: 0.9rem;
+        flex-wrap: wrap;
+        
     }
     .article_right--box--p3{
-        font-size: 5vw;
+        font-size: 8vw;
+       
     }
     .article_right--box--p4{
-        font-size:3.2vw;
+        font-size:4.2vw;
         width: auto;
+       
     }
     aside{
         min-height: 600px;
