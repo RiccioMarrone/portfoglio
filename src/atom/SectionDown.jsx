@@ -12,8 +12,8 @@ const SectionDown = ({about}) => {
     hidden: { opacity: 0, scale: 0, },
   }
   const boxVariant2 = {
-    visible : {opacity:1, scale:1,transform:"translateX(0px)"},
-    hidden : {opacity: 0,scale:1,transform:"translateX(100px)"}
+    visible : {scale:1,opacity:1},
+    hidden : {scale: 0,opacity:0}
   }
   const control = useAnimationControls();
   const [ref,inView] = useInView();
@@ -37,15 +37,15 @@ const SectionDown = ({about}) => {
         <div className='article_right--box'>
           <h1 className='article_right--box--p1'>There is all About me</h1>
           <p className='article_right--box--p2'>Un testo è un insieme organizzato di parole, corretto nella forma e coerente nel contenuto, usato per comunicare un messaggio di senso compiuto. Il tipo di testo di cui parliamo è fatto "di parole", ossia di segni verbali del codice linguistico ed è, quindi, un testo linguistico o testo verbale.</p>
-          <span  >
+          <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.5",linear:"ease"}} >
             <p className='article_right--box--p3'>Name  <br/> <p className='article_right--box--p4'>Andrea Armando</p></p>
-            <p className='article_right--box--p3'>GitHub  <br/> <a style = {{textDecoration:"none"}} href='https://github.com/RiccioMarrone'><p className='article_right--box--p4' style={{overflow:"hidden"}}>https://github.com/RiccioMarrone</p></a> </p>
-          </span>
+            <p className='article_right--box--p3'>GitHub  <br/> <a style = {{textDecoration:"none"}} href='https://github.com/RiccioMarrone'><p className='article_right--box--p4' >https://github.com/RiccioMarrone</p></a> </p>
+          </motion.span>
 
-          <span >
+          <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control} transition = {{duration:"0.5",linear:"ease"}}>
             <p className='article_right--box--p3'>Phone <br/> <p className='article_right--box--p4'>(+39)3917187566</p></p>
             <p className='article_right--box--p3'>Email  <br/> <p className='article_right--box--p4'>armandoandrea27@gmail.com</p></p>
-          </span>
+          </motion.span>
         </div>
       </article>
  
