@@ -27,7 +27,7 @@ const SectionDown = ({about}) => {
     }
   },[control, inView])
   return (
-    <div className = "container_section--down" >
+    <div className = "container_section--down" ref={about} >
       <article className = "article_left" >
         <motion.img  src = "https://img.freepik.com/free-vector/young-man-indexing_603843-388.jpg?size=626&ext=jpg&ga=GA1.2.827085345.1670066230&semt=ais" className='img-fluid article_left--img'></motion.img>
       </article>

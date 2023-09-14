@@ -4,6 +4,7 @@ import SectionUp from "./atom/SectionUp";
 import SectionDown from "./atom/SectionDown"
 import AsideUp from "./atom/AsideUp";
 import AsideDown from "./atom/AsideDown";
+import Contact from "./atom/Contact";
 import "./stili/style.css";
 
 import {useRef} from "react";
@@ -12,6 +13,7 @@ import {delay, motion, useAnimationControls} from "framer-motion";
 import UseAnimations from "react-useanimations";
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
+import Back from "../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg";
 
 function App() {
   const home = useRef(null);
@@ -42,11 +44,14 @@ function App() {
              
         </section>
         
-        <motion.aside >
+        <aside >
         <AsideUp skill = {skill}/>
         <AsideDown/>
 
-        </motion.aside>
+        </aside>
+        <footer>
+          <Contact/>
+        </footer>
         
      
       </BrowserRouter>
