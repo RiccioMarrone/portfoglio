@@ -496,6 +496,7 @@ aside{
         background-size: 100% 100%;
         object-fit:cover;
         height: 70vh;
+        
        
 
     }
@@ -518,6 +519,7 @@ aside{
         height: 60%;
         min-height: 100px; 
         width: 100%;
+       
         position: relative;
        
         
@@ -529,6 +531,7 @@ aside{
     .section_wrapper--left--box--p1{
         
         width: 60%;
+        
         margin: 0 20%;
         min-width: 10vw;
         height: auto;
@@ -644,13 +647,13 @@ aside{
         
     }
     .article_right--box--p3{
-        font-size: 8vw;
+        font-size: 5vw;
        
     }
     .article_right--box--p4{
         font-size:4.2vw;
         width: auto;
-       
+        max-width: 40%;
     }
     aside{
         min-height: 600px;
