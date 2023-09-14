@@ -29,14 +29,14 @@ const SectionDown = ({about}) => {
   return (
     <div className = "container_section--down" >
       <article className = "article_left" >
-        <motion.img   className = "object-cover"src = "https://img.freepik.com/free-vector/young-man-indexing_603843-388.jpg?size=626&ext=jpg&ga=GA1.2.827085345.1670066230&semt=ais" className='img-fluid article_left--img'></motion.img>
+        <motion.img  src = "https://img.freepik.com/free-vector/young-man-indexing_603843-388.jpg?size=626&ext=jpg&ga=GA1.2.827085345.1670066230&semt=ais" className='img-fluid article_left--img'></motion.img>
       </article>
 
 
       <article className = "article_right">
         <div className='article_right--box'>
-          <h1 className='article_right--box--p1'>There Is All About Me</h1>
-          <p className='article_right--box--p2'>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+          <h1 className='article_right--box--p1'>A proposito di Me</h1>
+          <p className='article_right--box--p2'>Un testo è un insieme organizzato di parole, corretto nella forma e coerente nel contenuto, usato per comunicare un messaggio di senso compiuto. Il tipo di testo di cui parliamo è fatto "di parole", ossia di segni verbali del codice linguistico ed è, quindi, un testo linguistico o testo verbale.</p>
           <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.5",linear:"ease"}} >
             <p className='article_right--box--p3'>Name  <br/> <p className='article_right--box--p4'>Andrea Armando</p></p>
             <p className='article_right--box--p3'>Email  <br/> <p className='article_right--box--p4'>armandoandrea26@gmail.com</p></p>
