@@ -12,8 +12,8 @@ const SectionDown = ({about}) => {
     hidden: { opacity: 0, scale: 0, },
   }
   const boxVariant2 = {
-    visible : {opacity:1, left: 0},
-    hidden : {opacity: 0, left: 100}
+    visible : {opacity:1, scale:1,transform:"translateX(0px)"},
+    hidden : {opacity: 0,scale:1,transform:"translateX(100px)"}
   }
   const control = useAnimationControls();
   const [ref,inView] = useInView();
@@ -37,12 +37,12 @@ const SectionDown = ({about}) => {
         <div className='article_right--box'>
           <h1 className='article_right--box--p1'>There Is All About Me</h1>
           <p className='article_right--box--p2'>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
-          <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.6",linear:"ease"}} >
+          <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.5",linear:"ease"}} >
             <p className='article_right--box--p3'>Name  <br/> <p className='article_right--box--p4'>Andrea Armando</p></p>
             <p className='article_right--box--p3'>Email  <br/> <p className='article_right--box--p4'>armandoandrea26@gmail.com</p></p>
           </motion.span>
 
-          <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control} transition = {{duration:"0.6",linear:"ease"}}>
+          <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control} transition = {{duration:"0.5",linear:"ease"}}>
             <p className='article_right--box--p3'>Phone <br/> <p className='article_right--box--p4'>(+39)3917187566</p></p>
             <p className='article_right--box--p3'>Instagram  <br/> <p className='article_right--box--p4'>_.andre_</p></p>
           </motion.span>

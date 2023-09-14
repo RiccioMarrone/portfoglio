@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from "../../img/[removal.ai]_00292e8b-3a05-4afb-9cbf-4eba2cfc7896-3426526_X0SOH2.png"
 
-import { useRef } from 'react';
+import { useRef,useEffect } from 'react';
 
 const box_container = {
   maxHeight: "600px",
@@ -10,9 +10,20 @@ const box_container = {
   backgroundColor: "yellow",
   position: "relative",
 }
+ 
 
 
 const SectionUp = ({home}) => {
+  const [btnStato, setBtnStato] = useState(true);
+  let style = {
+    backgroundColor:"rgba(20, 250, 143, 0.349)",
+  }
+  const time = () =>{
+    setTimeout(()=>{
+      alert("ciao")
+      setBtnStato(true); 
+    },400);
+  }
   return (
     <div className='box_container' ref = {home} >
 
@@ -28,7 +39,7 @@ const SectionUp = ({home}) => {
               </div> 
               
               <div className='section_wrapper--left--down'>
-                <div className='section_wrapper--left--down--btn'>Contattami</div>
+                <div className='section_wrapper--left--down--btn' style = {btnStato?{backgroundColor:"rgba(20, 250, 143, 0.349)"}:{backgroundColor:"rgba(3, 0, 41, 0.856)"}} onClick={()=>{setBtnStato(false);time}} >Contattami</div>
               </div>
               
           </div>
