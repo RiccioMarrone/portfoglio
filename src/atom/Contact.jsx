@@ -1,6 +1,6 @@
 import React from 'react'
 import emailjs from "emailjs-com";
-const Contact = () => {
+const Contact = ({contact}) => {
 
   function sendEmail(e){
     e.preventDefault();
@@ -17,7 +17,7 @@ const Contact = () => {
 
   }
   return (
-    <div className='container_footer'>
+    <div className='container_footer' ref={contact}>
       <div className='box_form'>
 
         <p>Send me a message</p>

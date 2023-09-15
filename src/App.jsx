@@ -31,6 +31,10 @@ function App() {
       skill.current?.scrollIntoView({behavior: 'smooth'});
 
     }
+    else if (data == "contact"){
+      contact.current?.scrollIntoView({behavior: 'smooth'});
+
+    }
   }
 
 
@@ -39,7 +43,7 @@ function App() {
       <BrowserRouter>
         <NavBar handleClick = {handleClick} />
         <section>
-              <SectionUp  home = {home}/>
+              <SectionUp  home = {home} handleClick = {handleClick}/>
               <SectionDown about = {about}/>
              
         </section>
@@ -50,7 +54,7 @@ function App() {
 
         </aside>
         <footer>
-          <Contact/>
+          <Contact contact = {contact}/>
         </footer>
         
      

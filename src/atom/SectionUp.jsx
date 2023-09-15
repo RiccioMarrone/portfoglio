@@ -13,7 +13,7 @@ const box_container = {
  
 
 
-const SectionUp = ({home}) => {
+const SectionUp = ({home,handleClick}) => {
   const [btnStato, setBtnStato] = useState(true);
   let style = {
     backgroundColor:"rgba(20, 250, 143, 0.349)",
@@ -39,7 +39,7 @@ const SectionUp = ({home}) => {
               </div> 
               
               <div className='section_wrapper--left--down'>
-                <div className='section_wrapper--left--down--btn' style = {btnStato?{backgroundColor:"rgba(20, 250, 143, 0.349)"}:{backgroundColor:"rgba(3, 0, 41, 0.856)"}} onClick={()=>{setBtnStato(false);time}} >Contattami</div>
+                <div className='section_wrapper--left--down--btn' style = {btnStato?{backgroundColor:"rgba(20, 250, 143, 0.349)"}:{backgroundColor:"rgba(3, 0, 41, 0.856)"}} onClick={()=>{setBtnStato(false);handleClick("contact")}} >Contattami</div>
               </div>
               
           </div>
