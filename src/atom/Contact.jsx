@@ -32,7 +32,7 @@ const Contact = ({contact}) => {
           </div>
           <div className='form--email'>
             <label >Subject:</label>
-            <input type = "text" placeholder='Email' name = "subject"/>
+            <input type = "text" placeholder='Oggetto' name = "subject"/>
           </div>
           <div className='form--message'>
             <label >Message:</label>
