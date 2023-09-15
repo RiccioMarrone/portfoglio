@@ -483,21 +483,145 @@ aside{
 }
 footer{
     height: auto;
-    background-size: 100% 100%;
-    object-fit: fill;
     
+    object-fit: fill;
+    background-size: cover;
     background-image: url("../../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
 }
 
 .container_footer{
     width: 100%;
-    height: auto;
-    min-height: 700px;
-    background-color: red;
-   
-    background: linear-gradient(#9b9b9b81, #dadadaab);
+    height: 90vh;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.466);
     position: relative;
     z-index: 1;
+}
+.box_form{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 95%;
+    width: 30%;
+    top: 5%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box_form p{
+    text-align: center;
+    font-size: 2vw;
+    height: auto;
+    padding: 2rem;
+    font-weight: 100;
+    background-color: rgba(28, 207, 88, 0.788);
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1rem;
+    height: auto;
+   
+}
+
+.form p{
+    font-size: 1vw;
+    height: 10vh;
+   ;
+    position: relative;
+}
+
+.form--name{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+
+}
+.form--name label{
+    font-size: 1.7vw;
+    color: rgb(22, 22, 22);
+    font-weight: 100;
+    padding-bottom: 0.3rem;
+}
+.form--name input{
+    min-height: 40px;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.219);
+
+}
+
+.form--email{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+
+}
+.form--email label{
+    font-size: 1.7vw;
+    color: rgb(22, 22, 22);
+    font-weight: 100;
+    padding-bottom: 0.3rem;
+}
+.form--email input{
+    min-height: 40px;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.219);
+
+}
+
+.form--message{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+
+}
+.form--message label{
+    font-size: 1.7vw;
+    color: rgb(22, 22, 22);
+    font-weight: 100;
+    padding-bottom: 0.3rem;
+}
+.form--message input{
+    min-height: 100px;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.btn_send{
+    background-color: black;
+    color: white;
+    font-size: 1.3vw;
+    border-radius: 0.3rem;
+    width: 30%;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding: 0.5rem;
+    position: relative;
+    font-weight: 200;
+    top:2%;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn_send:hover{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.849);
+    color: black;
+
+
 }
 /*******Media Query**/
 
@@ -741,6 +865,35 @@ footer{
         height: auto;
         margin: auto 0;
         position: relative;
+    }
+    .container_footer{
+        height: auto;
+        position: relative;
+        
+      
+    }
+    .box_form{
+        width: 70%;
+        height: auto;
+        position: relative;
+    
+
+    }
+    .box_form p{
+        font-size: 6vw;
+    }
+    .form--name label{
+        font-size: 5vw;
+    }
+    .form--email label{
+        font-size: 5vw;
+    }
+    .form--message label{
+        font-size: 5vw;
+    }
+    .btn_send{
+        top:0;
+        font-size: 3vw;
     }
     
 }
