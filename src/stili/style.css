@@ -615,6 +615,8 @@ footer{
     font-weight: 200;
     top:2%;
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 1px solid black
+
 }
 .btn_send:hover{
     background-color: white;

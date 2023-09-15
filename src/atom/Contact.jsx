@@ -1,18 +1,19 @@
 import React from 'react'
-
+import emailjs from "emailjs-com";
 const Contact = () => {
 
-  const sendEmail = (e) =>{
+  function sendEmail(e){
     e.preventDefault();
+    console.log("mandata");
 
-    emailjs.sendForm('gmail', 'template_ldpotwv', e.target, 'SOYa_6Dcg40F0KWqiIv9q')
+
+    emailjs.sendForm('gmail', 'template_ldpotwv', e.target, '30i8SIru6oulCdlbX')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
       e.target.reset();
-      console.log("mandata")
 
   }
   return (
@@ -31,17 +32,18 @@ const Contact = () => {
           </div>
           <div className='form--email'>
             <label >Subject:</label>
-            <input type = "email" placeholder='Email' name = "email"/>
+            <input type = "text" placeholder='Email' name = "subject"/>
           </div>
           <div className='form--message'>
             <label >Message:</label>
-            <input type = "text"  name = "message"/>
+            <textarea type = "text"  name = "message"> </textarea>
           </div>
+          <input  type = "submit" className='btn_send' value="invia"/>
+
         </form>
-        <div  type = "submit" className='btn_send'>Invia</div>
       </div>
     </div>
   )
 }
 
-export default Contact
+export default Contact;
