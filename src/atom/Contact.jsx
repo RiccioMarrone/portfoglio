@@ -19,7 +19,7 @@ const Contact = ({contact}) => {
   return (
     <div className='container_footer' ref={contact}>
       <div className='box_form'>
-
+          
         <p>Send me a message</p>
         <form className='form' onSubmit={sendEmail}>
           <div className='form--name'>

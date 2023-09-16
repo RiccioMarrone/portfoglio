@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from "../../img/[removal.ai]_00292e8b-3a05-4afb-9cbf-4eba2cfc7896-3426526_X0SOH2.png"
-
+import Ball from "../../img/Stacked_blob.svg";
 import { useRef,useEffect } from 'react';
 
 const box_container = {
@@ -26,29 +26,35 @@ const SectionUp = ({home,handleClick}) => {
   }
   return (
     <div className='box_container' ref = {home} >
+      <div className='box_left'>
+        <div className=' wave wave1'></div>
+        <div className=' wave wave2'></div> 
+        <div className=' wave wave3'></div>
+       
 
-      <div className="section_wrapper">
-
-          <div className='section_wrapper--left' >
-              <div className = "section_wrapper--left--box">
-                <span>
-                <p className='section_wrapper--left--box--p1'>Hello I'Andrea <br/>I'm a Web-Developer </p>
-                <p className='section_wrapper--left--box--p2'>Sono uno studente appenda diplmato in cerca di un lavoro come web-developer  <br/> Che se amavo era solo per non starmi a pensare
-                                                        Cosa non c'è sul mare, come sei universale</p>
-             </span>
-              </div> 
-              
-              <div className='section_wrapper--left--down'>
-                <div className='section_wrapper--left--down--btn' style = {btnStato?{backgroundColor:"rgba(20, 250, 143, 0.349)"}:{backgroundColor:"rgba(3, 0, 41, 0.856)"}} onClick={()=>{setBtnStato(false);handleClick("contact")}} >Contattami</div>
-              </div>
-              
+        
+        <div className='box_left--up'>
+          <div className='box_left--up_container'>
+           <h2 className='p1'>Hello,I'm Andrea</h2> 
+           <h2 className='p2'>I'm a Wed-Developer</h2>
+           <div  className='p3'>Sono uno studente in cerca di lavoro io sono <br/>che ha tanta voglia di impegnarsi assolutamente</div>
+           
+           <div className='box_left--down--btn' onClick={()=>{handleClick("contact")}}>
+            Contattami
           </div>
-
-          <div className='section_wrapper--right'>
-           <img style = {{position:"relative",height:"90%",top:"10%",objectFit:"fill",overflow:"hidden" }}className='img-fluid' src = {Logo} />
-
           </div>
+        </div>
+        
+        
+
+
+
       </div>
+      <div className='box_right'>
+        <img src = {Logo} />
+      </div>
+ 
+ 
 
 
 
