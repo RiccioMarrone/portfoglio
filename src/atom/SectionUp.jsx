@@ -37,7 +37,7 @@ const SectionUp = ({home,handleClick}) => {
           <div className='box_left--up_container'>
            <h2 className='p1'>Hello,I'm Andrea</h2> 
            <h2 className='p2'>I'm a Wed-Developer</h2>
-           <div  className='p3'>Sono uno studente in cerca di lavoro io sono <br/>che ha tanta voglia di impegnarsi assolutamente</div>
+           <div  className='p3'>Sono uno studente in cerca di lavoro io sono <br/>che ha tanta voglia di ....</div>
            
            <div className='box_left--down--btn' onClick={()=>{handleClick("contact")}}>
             Contattami
