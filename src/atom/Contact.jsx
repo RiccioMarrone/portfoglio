@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from "emailjs-com";
+import Contatti from "../../img/4117039.jpg";
 const Contact = ({contact}) => {
 
   function sendEmail(e){
@@ -20,8 +21,11 @@ const Contact = ({contact}) => {
     <div className='container_footer' ref={contact}>
       <div className='box_form'>
           
-        <p>Send me a message</p>
+       
         <form className='form' onSubmit={sendEmail}>
+          <div style = {{height:"25vh",}}>
+            <img src ="https://cdn-icons-png.flaticon.com/256/1923/1923737.png" style={{objectFit:"contain"}}/>
+          </div>
           <div className='form--name'>
             <label >Name:</label>
             <input type = "text" placeholder='Name' name = "name"/>
@@ -41,6 +45,10 @@ const Contact = ({contact}) => {
           <input  type = "submit" className='btn_send' value="invia"/>
 
         </form>
+      </div>
+      <div className='container_footer--right'>
+        <img src = {Contatti}/>
+
       </div>
     </div>
   )
