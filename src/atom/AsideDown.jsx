@@ -48,7 +48,7 @@ const AsideDown = () => {
 
             </motion.div>
             <motion.div className='box_skill' >
-              <p>Linguaggi di Mark-Up e precompilatori</p>
+              <p>Linguaggi di Mark-Up e altro</p>
               <span className='box_skill--span3' ><p>HTML</p><img className='box_skill--span_img' src = {Contrassegno}/></span>
               <span className='box_skill--span3' > <p>CSS</p><img className='box_skill--span_img' src = {Contrassegno}/></span>
               <span className='box_skill--span3' > <p>SCSS</p><img className='box_skill--span_img' src = {Contrassegno}/></span>
