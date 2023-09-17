@@ -1,6 +1,6 @@
 import React from 'react'
 import emailjs from "emailjs-com";
-import Contatti from "../../img/4117039.jpg";
+import Contatti from "../../img/4117039-PhotoRoom.png-PhotoRoom.png";
 const Contact = ({contact}) => {
 
   function sendEmail(e){
