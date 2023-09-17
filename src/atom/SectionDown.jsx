@@ -36,7 +36,7 @@ const SectionDown = ({about}) => {
       <article className = "article_right">
         <div className='article_right--box'>
           <h1 className='article_right--box--p1'>There is all About me</h1>
-          <p className='article_right--box--p2'>Un testo è un insieme organizzato di parole, corretto nella forma e coerente nel contenuto, usato per comunicare un messaggio di senso compiuto. Il tipo di testo di cui parliamo è fatto "di parole", ossia di segni verbali del codice linguistico ed è, quindi, un testo linguistico o testo verbale.</p>
+          <p className='article_right--box--p2'>Ciao, mi chiamo Andrea e sono uno studente da poco diplomato in ambito informatico presso l'ITIS di Cuneo. Una delle cose che adoro maggiormente è la programmazione, soppratutto quella orientata al web,sfortunatamente non ho esperienza in ambito lavorativo, ma sono pronto ad impegnarmi in modo tale da non risultare come un peso</p>
           <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.5",linear:"ease"}} >
             <p className='article_right--box--p3'>Name  <br/> <p className='article_right--box--p4'>Andrea Armando</p></p>
             <p className='article_right--box--p3'>GitHub  <br/> <a style = {{textDecoration:"none"}} href='https://github.com/RiccioMarrone'><p className='article_right--box--p4' >https://github.com/RiccioMarrone</p></a> </p>

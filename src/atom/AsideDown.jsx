@@ -34,7 +34,6 @@ const AsideDown = () => {
               <p>FrameWork</p>
               <span className='box_skill--span1'> <p>React Js</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
               <span className='box_skill--span1'><p>Bootstrap</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
-              <span className='box_skill--span1'> <p>Express Js</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
 
 
             </motion.div>
