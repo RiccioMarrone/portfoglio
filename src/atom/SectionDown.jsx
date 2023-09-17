@@ -44,7 +44,7 @@ const SectionDown = ({about}) => {
 
           <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control} transition = {{duration:"0.5",linear:"ease"}}>
             <p className='article_right--box--p3'>Phone <br/> <p className='article_right--box--p4'>(+39)3917187566</p></p>
-            <p className='article_right--box--p3'>Email  <br/> <p className='article_right--box--p4'>armandoandrea27@gmail.com</p></p>
+            <p className='article_right--box--p3'>Email  <br/> <p className='article_right--box--p4'>armandoandrea26@gmail.com</p></p>
           </motion.span>
         </div>
       </article>
