@@ -27,7 +27,7 @@ const Contact = ({contact}) => {
             <img src ="https://cdn-icons-png.flaticon.com/256/1923/1923737.png" style={{objectFit:"contain"}}/>
           </div>
           <div className='form--name'>
-            <label >Name:</label>
+            <label >Nome:</label>
             <input type = "text" placeholder='Name' name = "name"/>
           </div>
           <div className='form--email'>
@@ -39,7 +39,7 @@ const Contact = ({contact}) => {
             <input type = "text" placeholder='Oggetto' name = "subject"/>
           </div>
           <div className='form--message'>
-            <label >Message:</label>
+            <label >Messaggio:</label>
             <textarea type = "text"  name = "message"> </textarea>
           </div>
           <input  type = "submit" className='btn_send' value="invia"/>
