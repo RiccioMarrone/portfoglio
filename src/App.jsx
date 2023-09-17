@@ -13,7 +13,6 @@ import {delay, motion, useAnimationControls} from "framer-motion";
 import UseAnimations from "react-useanimations";
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
-import Back from "../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg";
 
 function App() {
   const home = useRef(null);
