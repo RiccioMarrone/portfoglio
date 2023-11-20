@@ -36,8 +36,7 @@ const SectionUp = ({home,handleClick}) => {
         <div className='box_left--up'>
           <div className='box_left--up_container'>
            <h2 className='p1'>Hello,I'm Andrea</h2> 
-           <h2 className='p2'>I'm a Web-Developer</h2>
-           <div  className='p3'>Sono uno studente in cerca di lavoro  <br/>come sviluppatore web</div>
+           <h2 className='p2'>I'm a Junior Full Stack Developer</h2>
            
            <div className='box_left--down--btn' onClick={()=>{handleClick("contact")}}>
             Contattami

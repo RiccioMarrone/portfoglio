@@ -36,7 +36,8 @@ const SectionDown = ({about}) => {
       <article className = "article_right">
         <div className='article_right--box'>
           <h1 className='article_right--box--p1'>There is all About me</h1>
-          <p className='article_right--box--p2'>Ciao, mi chiamo Andrea e sono uno studente da poco diplomato in ambito informatico presso l'ITIS di Cuneo. Una delle mie passioni è la programmazione orientata al web,sfortunatamente non ho esperienza in ambito lavorativo, ma sono pronto ad impegnarmi in modo tale da non risultare come un peso,ma come una valida risorsa</p>
+          <p className='article_right--box--p2'>Mi chiamo Andrea Armando e sono un ragazzo con una grande passione per il mondo del web, recentemente ho concluso il corso Hackdemy presso Aulab il quale mi ha aiutato ad arricchire e consolidare conoscenze come ( sviluppo software,teamwork,.. ). Se dovessi scelgliere un aggettivo che mi rappresenta, allora la  cursiosità farebbe al caso mio, infatti è stata proprio questa ad avvicinarmi a questo settore e sopprattutto ad iniziare fin da subito a studiare da autodidatta.Sebbene non ho esperienza lavorativa, sono entusiasta di mettermi alla prova con le conoscenze acquisite e sopratutto di migliorarmi e raggiungere nuovi obbiettivi.
+          </p>
           <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.5",linear:"ease"}} >
             <p className='article_right--box--p3'>Name  <br/> <p className='article_right--box--p4'>Andrea Armando</p></p>
             <p className='article_right--box--p3'>GitHub  <br/> <a style = {{textDecoration:"none"}} href='https://github.com/RiccioMarrone'><p className='article_right--box--p4' >https://github.com/RiccioMarrone</p></a> </p>

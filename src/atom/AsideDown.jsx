@@ -16,11 +16,11 @@ const AsideDown = () => {
 
   useEffect(()=>{
     if(inView){
-      console.log("Vedo");
+     
       control.start("visible")
     
     }else{
-      console.log("Non ved");
+     
       control.start("hidden")
    
       
@@ -32,7 +32,10 @@ const AsideDown = () => {
         <motion.div className='asideDown_box--row1'>
             <motion.div  className='box_skill'>
               <p>FrameWork</p>
-              <span className='box_skill--span1'> <p>React Js</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
+              <span className='box_skill--span1'> <p>Next.js</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
+              <span className='box_skill--span1'> <p>React.js</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
+              <span className='box_skill--span1'> <p>Laravel</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
+              <span className='box_skill--span1'> <p>Tailwind</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
               <span className='box_skill--span1'><p>Bootstrap</p> <img className='box_skill--span_img' src = {Contrassegno}/></span>
 
 
