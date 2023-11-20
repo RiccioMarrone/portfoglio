@@ -40,7 +40,7 @@ const SectionDown = ({about}) => {
           </p>
           <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control}  transition = {{duration:"0.5",linear:"ease"}} >
             <p className='article_right--box--p3'>Name  <br/> <p className='article_right--box--p4'>Andrea Armando</p></p>
-            <p className='article_right--box--p3'>GitHub  <br/> <a style = {{textDecoration:"none"}} href='https://github.com/RiccioMarrone'><p className='article_right--box--p4' >https://github.com/RiccioMarrone</p></a> </p>
+            <p className='article_right--box--p3'>Linkedin <br/> <a style = {{textDecoration:"none"}} href='https://www.linkedin.com/in/andrea-armando-727388285/'><p className='article_right--box--p4' >https://www.linkedin.com/in/andrea-armando-727388285/</p></a> </p>
           </motion.span>
 
           <motion.span ref = {ref} variants = {boxVariant2} initial ="hidden" animate = {control} transition = {{duration:"0.5",linear:"ease"}}>
