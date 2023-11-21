@@ -27,8 +27,8 @@ const SectionDown = ({about}) => {
       // You can apply your own light styles here or take any other action
       document.body.style.backgroundColor = '#ffffff'; // Light background color
       document.body.style.color = '#000000'; // Dark text color
-      document.querySelector(".container_section--down").style.backgroundColor = "#ffffff"
-      document.querySelector(".container_section--down").color.backgroundColor = "#000000"
+      document.querySelector(".container_section--down").style.backgroundColor = '#ffffff'
+      document.querySelector(".container_section--down").style.color = '#000000'
   
     }
     
