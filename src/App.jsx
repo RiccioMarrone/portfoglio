@@ -19,6 +19,15 @@ function App() {
   const about = useRef(null);
   const skill = useRef(null);
   const contact = useRef(null);
+  useEffect(() => {
+    // Check if the user has a dark color scheme preference
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // User has a dark color scheme preference
+      // You can apply your own light styles here or take any other action
+      document.body.style.backgroundColor = '#ffffff'; // Light background color
+      document.body.style.color = '#000000'; // Dark text color
+    }
+  }, []);
   
 
   const handleClick = (data) =>{
